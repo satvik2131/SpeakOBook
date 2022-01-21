@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:id="@+id/readerSetup"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:forceDarkAllowed="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/readerView"
+        android:layout_width="417dp"
+        android:layout_height="678dp"
+        android:gravity="center"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/playbackoperations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/playbackoperations"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#8DCEDC"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/backPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Back"
+            android:elevation="20dp"
+            android:onClick="prevPage"
+            android:src="@drawable/previous"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/playPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:onClick="playPauseAudio"
+            android:src="@drawable/play"
+
+            tools:ignore="playPause"
+            tools:layout_editor_absoluteX="56dp" />
+
+        <ImageButton
+            android:id="@+id/nextPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="NextPage"
+            android:src="@drawable/next"
+            android:onClick="nextPage"
+            android:elevation="20dp"
+            tools:ignore="Next" />
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

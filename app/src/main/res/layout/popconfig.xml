@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popupsettings"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pitchLabel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Pitch"
+        android:textColor="#353535"
+        android:textSize="30dp" />
+
+    <app.minimize.com.seek_bar_compat.SeekBarCompat
+        android:id="@+id/pitch"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:thumbColor="#62D396"
+        app:progressColor="#9E9999"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitchLabel" />
+
+
+    <TextView
+        android:id="@+id/speed_rate_label"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Speed Rate"
+        android:textColor="#353535"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/pitch" />
+
+    <app.minimize.com.seek_bar_compat.SeekBarCompat
+        android:id="@+id/speed_rate"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:thumbColor="#62D396"
+        app:progressColor="#9E9999"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speed_rate_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

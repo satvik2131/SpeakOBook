@@ -10,10 +10,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main);
-//        Handler().postDelayed({
-//                                var moveToAddBooks = Intent(applicationContext,AddBooks::class.java);
-//                                startActivity(moveToAddBooks);
-//        },2000)
+        supportActionBar?.hide();
+
 
         Timer("LoadLogo", false).schedule(500) {
             var moveToAddBooks = Intent(applicationContext,AddBooks::class.java);

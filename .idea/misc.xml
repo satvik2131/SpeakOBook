@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/add.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/configure_voice.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/next.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/pause.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/play.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/popup.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/previous.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/drawable/test.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/layout/add_books.xml" value="0.2484375" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/layout/configuration.xml" value="0.2484375" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/layout/menu.xml" value="0.2484375" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/layout/popconfig.xml" value="0.2484375" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/layout/reader.xml" value="0.264" />
+        <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/SpeakOBook/app/src/main/res/menu/config_menu.xml" value="0.2484375" />
         <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/app/src/main/res/drawable/add.xml" value="0.26458333333333334" />
         <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/app/src/main/res/drawable/add_button.xml" value="0.26458333333333334" />
         <entry key="..\:/Users/harsu/AndroidStudioProjects/SpeakOBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26458333333333334" />
