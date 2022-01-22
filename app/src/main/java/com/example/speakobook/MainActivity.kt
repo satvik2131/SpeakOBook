@@ -6,6 +6,8 @@ import android.os.Bundle
 import java.util.*
 import kotlin.concurrent.schedule
 
+
+//LOGO SCREEN
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         Timer("LoadLogo", false).schedule(500) {
             var moveToAddBooks = Intent(applicationContext,AddBooks::class.java);
             startActivity(moveToAddBooks);
+            finish()
         }
     }
 }

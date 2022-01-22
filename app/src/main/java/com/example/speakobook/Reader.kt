@@ -54,11 +54,6 @@ class Reader : AppCompatActivity(){
         setSharedOrDefaultPitchAndSpeechRate()
 
 
-        tts = TextToSpeech(this,TextToSpeech.OnInitListener {
-                tts!!.setPitch(pitch!!/100)
-                tts!!.setSpeechRate(speech_rate!!-50/100)
-        });
-
 
         //Fetches the Uri
         var pagesUriString = intent.getStringExtra("pdfUri");
@@ -88,15 +83,23 @@ class Reader : AppCompatActivity(){
 
     }
 
+    override fun onDestroy() {
+        tts?.stop()
+        tts?.shutdown()
+        super.onDestroy()
+    }
+
     override fun onResume() {
         //Blurring background
         var rootView:ConstraintLayout = findViewById(R.id.readerSetup)
         Blurry.delete(rootView);
 
-       setSharedOrDefaultPitchAndSpeechRate()
+        //Sets the global pitch and speech_rate variable
+        setSharedOrDefaultPitchAndSpeechRate()
 
-        tts?.setPitch(pitch!!.toFloat()/100);
-        tts?.setSpeechRate(speech_rate!!.toFloat()-50/100)
+
+        //Sets the TTS speech and pitch rate
+        setPitchAndSpeechRate()
 
         super.onResume()
     }
@@ -187,6 +190,13 @@ class Reader : AppCompatActivity(){
 
     }
 
+
+    fun setPitchAndSpeechRate(){
+        tts = TextToSpeech(this,TextToSpeech.OnInitListener {
+            tts!!.setPitch(pitch!!/100)
+            tts!!.setSpeechRate(speech_rate/50)
+        });
+    }
 
 
     //Next Page
