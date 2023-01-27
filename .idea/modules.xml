@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpeakOBook.iml" filepath="$PROJECT_DIR$/.idea/modules/SpeakOBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SpeakOBook.app.unitTest.iml" />
     </modules>
   </component>
 </project>

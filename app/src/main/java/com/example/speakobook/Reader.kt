@@ -141,8 +141,8 @@ class Reader : AppCompatActivity(){
             pitch = sharedPreferences?.getFloat("pitch",0F)!!
             speech_rate =  sharedPreferences?.getFloat("speech_rate",0F)!!
         }else{
-            pitch = (Settings.Secure.getInt(getContentResolver(), Settings.Secure.TTS_DEFAULT_PITCH).toFloat())
-            speech_rate = (Settings.Secure.getInt(getContentResolver(), Settings.Secure.TTS_DEFAULT_RATE).toFloat())
+//            pitch = (Settings.Secure.getInt(getContentResolver(), Settings.Secure.TTS_DEFAULT_PITCH).toFloat())
+//            speech_rate = (Settings.Secure.getInt(getContentResolver(), Settings.Secure.TTS_DEFAULT_RATE).toFloat())
         }
     }
 

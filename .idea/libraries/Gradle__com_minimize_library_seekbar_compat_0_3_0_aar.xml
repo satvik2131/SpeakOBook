@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1c9dbd9291960339f89deb1f6b6d769d/transformed/jetified-seekbar-compat-0.3.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c9dbd9291960339f89deb1f6b6d769d/transformed/jetified-seekbar-compat-0.3.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c9dbd9291960339f89deb1f6b6d769d/transformed/jetified-seekbar-compat-0.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63e9511372c80ffa99155c7bf1ed5623/transformed/jetified-seekbar-compat-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63e9511372c80ffa99155c7bf1ed5623/transformed/jetified-seekbar-compat-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/63e9511372c80ffa99155c7bf1ed5623/transformed/jetified-seekbar-compat-0.3.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.minimize.library/seekbar-compat/0.3.0/ce3d09ecf69c4c1aca48f6616b21abff26bf66b/seekbar-compat-0.3.0-javadoc.jar!/" />
